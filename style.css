@@ -1,7 +1,41 @@
 .header {
-    padding: 30px;
-    text-align: center;
+    padding: 25px;
+    margin: none;
     background: rgb(175, 174, 174);
     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .header ul li{
+    list-style: none;
+    display: inline;
+  }
+
+  .header h2,
+  .header ul,
+  .header ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .header ul {
+    padding-left: 650px;
+  }
+
+  .body{
     font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  .footer{
+    padding: 12.5px;
+    margin: none;
+    background: rgb(175, 174, 174);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;    
   }
