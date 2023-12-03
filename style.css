@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: rgb(251, 251, 241);
 }
 
 .header {
@@ -25,14 +25,15 @@ body {
   }
 
   .header ul {
-    padding-left: 650px;
+    padding-left: 60px;
   }
 
   .body{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 
   .footer{
