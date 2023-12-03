@@ -11,7 +11,7 @@ let enterNumber;
         const randomNumber = Math.floor(Math.random() * enterNumber) + 1;
         let userGuesses = parseInt(prompt(`Guess a number between 1 and ${enterNumber}:`));
 
-        if userGuesses = randomNumber {
-            xxx
-        }
+       // if userGuesses = randomNumber {
+       //     xxx
+       // }
     }
