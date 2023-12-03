@@ -12,10 +12,10 @@ let enterNumber;
         let userGuesses = parseInt(prompt(`Guess a number between 1 and ${enterNumber}:`));
 
        // if (userGuesses === randomNumber) {
-       // alert(`You guessed the correct number! \n Current Streak: ${currentStreak} \n Highest Streak: ${highestStreak}`);
+       // alert(`You guessed the correct number! Current Streak: ${currentStreak}  Highest Streak: ${highestStreak}`);
        //   } else {
         // currentStreak = 0;
-           //  alert(`Sorry, the number was ${randomNumber}. Your streak has been reset.\nHighest Streak: ${highestStreak}`);
+           //  alert(`Sorry, the number was ${randomNumber}. Your streak has been reset.\Highest Streak: ${highestStreak}`);
        //  }
        // 
     }
