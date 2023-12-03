@@ -15,7 +15,7 @@ let enterNumber;
        // alert(`You guessed the correct number! Current Streak: ${currentStreak}  Highest Streak: ${highestStreak}`);
        //   } else {
         // currentStreak = 0;
-           //  alert(`Sorry, the number was ${randomNumber}. Your streak has been reset.\Highest Streak: ${highestStreak}`);
+         //  alert(`Sorry, the number was ${randomNumber}. Your streak has been reset.\Highest Streak: ${highestStreak}`);
        //  }
        // 
     }
