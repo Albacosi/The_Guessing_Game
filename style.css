@@ -140,3 +140,18 @@ body {
   padding: 25px 15px;
   border-radius: 14px;
 }
+
+.gamepage-button{
+  display: block; margin: 0 auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: 2px solid #8F90CA;
+  border-radius: 10px;
+  background-color: #CDCDE4;
+  color: #323A4C;
+  transition: background-color 0.3s;
+}
+
+.gamepage-button button:hover {
+  background-color: #8F90CA;
+ }
