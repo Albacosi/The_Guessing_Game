@@ -12,6 +12,6 @@ let enterNumber;
         let userGuesses = parseInt(prompt(`Guess a number between 1 and ${enterNumber}:`));
 
        // if userGuesses = randomNumber {
-       //     xxx
-       // }
+       //   
+       // 
     }
