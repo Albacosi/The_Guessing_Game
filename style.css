@@ -45,6 +45,15 @@ body {
     margin-top: -10px;
   }
 
+  h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 50px;
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+  }
+
   .footer{
     padding: 12.5px;
     margin: none;
@@ -88,3 +97,14 @@ body {
   a:hover{
     color: grey;
   }
+
+  .aboout-us-description{
+    padding-right: 150px;
+    padding-left: 850px;
+    padding-bottom: 80px;
+    margin-top: -50px;
+  }
+  .aboout-us-description ul {
+    list-style-type: none;
+    padding: 0;
+}
