@@ -4,8 +4,9 @@ body {
 .pageTitle{
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 75px;
+  background-color: rgb(188, 188, 188);
+  margin: 125px;
 }
 
 .header {
@@ -41,6 +42,7 @@ body {
     color: black;
     font-size: 45px;
     font-weight: 300;
+    margin-top: -10px;
   }
 
   .footer{
@@ -64,6 +66,25 @@ body {
 
   }
 
+  .homepage-button{
+    align-items: center;
+
+  }
+
   .gameDescription{
     font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 15px
+  }
+
+  a:hover{
+    color: grey;
   }
