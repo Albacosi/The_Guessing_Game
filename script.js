@@ -3,8 +3,15 @@ let enterNumber;
     let highestStreak = 0;
 
     function chooseNumber() {
-        enterNumber = parseInt(prompt("Enter the maximum value (X) for the guessing game:"));
+        enterNumber = parseInt(prompt("Plese enter the maximum value x for the guessing game:"));
         startGame();
     }
 
-    function startGame() {}
+    function startGame() {
+        const randomNumber = Math.floor(Math.random() * enterNumber) + 1;
+        let userGuesses = parseInt(prompt(`Guess a number between 1 and ${enterNumber}:`));
+
+        if userGuesses = randomNumber {
+            xxx
+        }
+    }
