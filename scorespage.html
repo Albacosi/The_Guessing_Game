@@ -5,6 +5,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const lastStreakElement = document.getElementById('lastStreak');
+        const highStreakElement = document.getElementById('highStreak');
+
+        const lastStreak = localStorage.getItem('currentStreak');
+        const highStreak = localStorage.getItem('lowestStreak');
+
+        if (lastStreakElement) {
+            lastStreakElement.textContent = lastStreak || 'N/A';
+        }
+        if (highStreakElement) {
+            highStreakElement.textContent = highStreak || 'N/A';
+        }
+    });
+</script>
 
 </head>
 
@@ -21,9 +37,13 @@
                 <li><a href="settingspage.html">Settings</a></li>
             </ul>
         </div>
+        
 
     <div class="pageTitle">
         <h1> Your Scores</h1>
+        <p>Last Score: <span id="lastStreak">N/A</span></p>
+        <p>High Score: <span id="highStreak">N/A</span></p>
+     
     </div>
 
     <div class="footer">
