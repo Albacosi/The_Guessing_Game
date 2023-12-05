@@ -5,22 +5,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const lastStreakElement = document.getElementById('lastStreak');
-        const highStreakElement = document.getElementById('highStreak');
-
-        const lastStreak = localStorage.getItem('currentStreak');
-        const highStreak = localStorage.getItem('lowestStreak');
-
-        if (lastStreakElement) {
-            lastStreakElement.textContent = lastStreak || 'N/A';
-        }
-        if (highStreakElement) {
-            highStreakElement.textContent = highStreak || 'N/A';
-        }
-    });
-</script>
 
 </head>
 
@@ -50,6 +34,21 @@
         <h3>The Guessing Game</h3>
         <p> By The_Code_Crafters</p>
     </div>
+
+    <script>
+        const lastStreakElement = document.getElementById('lastStreak');
+        const highStreakElement = document.getElementById('highStreak');
+
+        const lastStreak = localStorage.getItem('currentStreak');
+        const highStreak = localStorage.getItem('lowestStreak');
+
+        if (lastStreakElement) {
+            lastStreakElement.innerHTML = lastStreak;
+        }
+        if (highStreakElement) {
+            highStreakElement.innerHTML = highStreak;
+        }
+    </script>
 </body>
 
 </html>
