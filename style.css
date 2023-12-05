@@ -2,6 +2,25 @@ body {
   background-color: #EEECE9;
   color: #323A4C;
 }
+.dark-mode .header, .dark-mode .footer, .dark-mode a {
+  background-color: black;
+  color: #fff;
+}
+.dark-mode {
+  background-color: gray;
+  color: white;
+}
+.dark-mode a:hover {
+  color: #DBDECA;
+}
+.dark-mode h1, .dark-mode h4 {
+  color: white;
+}
+
+.dark-mode .pageTitle, .dark-mode .about-us-description ul li {
+  background-color: #333;
+}
+
 .pageTitle{
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
@@ -104,11 +123,11 @@ body {
   background-color: #EEECE9;
 }
   .gameDescription{
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
   }
-ol {
+  ol {
     font-size: 20px;
     padding-right: 10px;
     padding-left: 30px;
@@ -120,12 +139,12 @@ ol {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     padding: 15px;
-    
+    transition: 0.3s;
   }
 
   a:hover{
     color: #1B3672;
-  
+    font-weight: 700;
   }
 
   .about-us-description{
@@ -160,3 +179,4 @@ ol {
 .gamepage-button button:hover {
   background-color: #8F90CA;
  }
+
