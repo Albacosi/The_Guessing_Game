@@ -108,6 +108,11 @@ body {
     padding-right: 10px;
     padding-left: 10px;
   }
+ol {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+  }
 
   a{
     color: #323A4C;
