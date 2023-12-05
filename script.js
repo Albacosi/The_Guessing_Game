@@ -1,6 +1,6 @@
 let enterNumber;
 let currentStreak = 1;
-let lowestStreak = Infinity;
+let lowestStreak = localStorage.getItem('lowestStreak') || Infinity;
 
 function chooseNumber() {
     enterNumber = parseInt(prompt("Please enter the maximum value x for the guessing game:"));
@@ -23,7 +23,12 @@ function startGame() {
 
     if (currentStreak < lowestStreak) {
         lowestStreak = currentStreak;
+        localStorage.setItem('lowestStreak', lowestStreak);
         alert(`New high score! Lowest streak: ${lowestStreak}`);
+        
     }
+    localStorage.setItem('currentStreak', currentStreak);
+    
     currentStreak = 1; 
 }
+
